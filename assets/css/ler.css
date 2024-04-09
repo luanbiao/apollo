@@ -1,0 +1,59 @@
+body {
+    background-color: #535759;
+    margin: 0; /* Remova qualquer margem padrão para garantir uma aparência consistente */
+}
+
+#canvases canvas {
+    margin: 20px auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+#left, #center, #right {
+    flex: 1;
+    cursor: pointer;
+}
+
+#overlay {
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#left {
+  /*  background-color: red;*/
+}
+
+#right {
+/*   background-color: blue;*/
+}
+
+.container-fluid {
+    position: relative; /* Adicione esta linha para garantir que o z-index funcione corretamente */
+    z-index: 2;
+}
+
+.background{
+    display: none; /* Correção para mostrar o fundo cinzinha pá */
+}
+
+#rodape {
+    bottom: 0;
+    z-index: 3;
+    padding: 10px;
+  background-color: rgba(0,0,0,1); /*#121112;*/
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*   position: sticky;*/
+ position: fixed;
+  width: -webkit-fill-available;
+
+
+  }

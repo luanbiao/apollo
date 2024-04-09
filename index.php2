@@ -1,0 +1,6 @@
+<?php include 'header.php'; ?>
+
+<h1>Bem-vindo à sua Página Inicial</h1>
+<p>Conteúdo da página vai aqui.</p>
+
+<?php include 'footer.php'; ?>

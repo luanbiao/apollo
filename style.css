@@ -1,0 +1,203 @@
+/*body {
+    background-color: rgb(22, 0, 0);
+    color: white;
+}
+
+.topo {
+    background-color: rgb(22, 0, 0);
+}
+
+
+.form-cadastro {
+    max-width: 400px;
+    margin: auto;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+*/
+
+  /* LOGIN */
+
+  
+.mt-7{
+    margin-top: 5rem !important;
+}
+
+  .body-video {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+}
+
+.video-login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.login-dark-video {
+    max-width: 320px;
+    width: 90%;
+    background-color: rgba(0,0,0,0.7); /*#121112;*/
+    padding: 40px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login-dark-cadastro {
+    max-width: 320px;
+    width: 90%;
+    background-color: rgba(0,0,0,0.7); /*#121112;*/
+    padding: 40px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#video-login {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mute-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #990000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* This makes the button rounded */
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+    transition: all 0.3s; /* Add a smooth transition effect */
+}
+
+.mute-button:hover {
+    transform: scale(1.2); /* Scale the button by 20% on hover */
+}
+
+.mute-button i {
+    font-size: 24px; /* Adjust the font size of the material icon */
+    transition: all 0.3s; /* Add a smooth transition effect */
+}
+
+.mute-button:hover i {
+    font-size: 30px; /* Increase the font size on hover */
+}
+
+
+
+.btn-login{
+    background-color: #990000;
+    color: #fff;
+}
+/* FIM LOGIN */
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(22, 0, 0);
+    color: white;
+}
+
+
+/*.navbar {
+    background-color: transparent !important;
+}*/
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar{
+    background-color: rgb(22, 0, 0, 0.5);
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 30%;
+    background-color: rgb(22, 0, 0, 0.5);
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.corpo {
+    top: 100%;
+    position: absolute;
+    background-color: rgb(22, 0, 0);
+    width: 100%;
+}
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.header p {
+    margin-bottom: 20px;
+}
+
+.btn-assistir {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.input-bloqueado {
+    background-color: #cccccc; /* Cor de fundo quando bloqueado */
+    cursor: not-allowed; /* Cursor de "não permitido" */
+  }
+
+  .fundo {
+    background-color: rgba(0,0,0,1); /*#121112;*/
+  }
+
