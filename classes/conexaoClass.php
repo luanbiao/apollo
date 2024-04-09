@@ -2,8 +2,8 @@
 
 class Conexao {
     private $host = "localhost";
-    private $usuario = "root";
-    private $senha = "";
+    private $usuario = "youruser";
+    private $senha = "yourpassword";
     private $banco = "apollo";
     private $conexao;
 
